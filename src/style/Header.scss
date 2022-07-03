@@ -1,0 +1,48 @@
+.Header {
+    width: 100%;
+    background-color: #D9D1C7;
+}
+
+.Header-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0;
+
+    &__logo {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 2rem;
+
+        &:hover {
+            transition: 0.3s all ease;
+            color: whitesmoke;
+        }
+    }
+}
+
+.Header-search {
+    width: 440px;
+    height: 50px;
+    background: #CCC5BD;
+    border-radius: 5px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 18px;
+    align-items: center;
+
+    &__field {
+        border: none;
+        background: none;
+        outline: none;
+        padding-left: 18px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px; 
+        color: #4D4C4E;
+        // margin-left: 18px;
+    }
+}
